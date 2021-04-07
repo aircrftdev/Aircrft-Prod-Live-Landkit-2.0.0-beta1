@@ -1,6 +1,6 @@
-# LANDKIT
+# Aircrft-Prod-Live-Landkit-2.0.0-beta1
 
-Landkit Theme by Good Themes.
+Aircrft | Startup Supply Co.
 
 ### Documentation
 
