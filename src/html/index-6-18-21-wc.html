@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> partials/head title="Aircrft Startup Marketplace"}}
+  </head>
+  <body class="bg-dark">
+
+  <!-- MODALS -->
+  {{> partials/modals}}
+  
+  <!-- MODALS -->
+  {{> partials/modals}}
+
+      <!-- NAVBAR -->
+      {{> partials/navbar classList="navbar-dark fixed-top" container="container-fluid" button="info"}} 
+    
+    <!-- Shape -->
+    <div class="shape shape-blur-3 svg-shim text-white">
+      {{> blurs/blur-3}}
+    </div>
+
+    <!-- FEATURES -->
+    <section class="py-10 py-md-14 bg-black" style="background-image: url(assets/img/patterns/pattern-1.svg);">
+      <div class="container">
+        <div class="row mt-n7 py-10 py-md-14">
+          <div class="col-12">
+
+            <!-- Heading STARTUP MARKETPLACE 
+            <span class="badge rounded-pill bg-success-soft h6 fw-bold text-uppercase">STARTUP MARKETPLACE</span> -->
+
+            <!-- Card 1 | card-shadow-dark-lg-lift-lg 1 bg-dark bg-pattern-2 -->
+            <div class="card-shadow-dark-lg card lift lift-lg bg-dark border-primary border bg-pattern-2 rounded-3">
+              <div class="card-body p-5 pb-0 my-auto">
+
+                <!-- Aircrft Product Card 6-12-2021 aircrft-blog-in-a-box-product-card-v5.png | aircrft-pc-biab-01.jpg -->
+                <a href="https://gum.co/zwIVA?wanted=true" target="_blank">
+                  <img src="assets/img/products/blog/aircrft-pc-biab-02.jpg" alt="Blog-in-a-Box" class="img-fluid screenshot">
+                </a>
+
+              </div>
+
+              <div class="card-body p-5">
+
+                <!-- Image 
+                <img class="img-fluid" src="assets/img/illustrations/illustration-9.png"
+                  alt="Aircrft Homepage Website and Landing Page Builder" style="max-width: 150px;"> -->
+
+                <!-- Heading -->
+                <h1 class="fw-bold text-white">
+                  Blog-in-a-Box
+                </h1>
+                
+                <!-- Description | text-muted mb-0 -->
+                <p class="fs-lg text-muted mb-0">
+                  The #1 blogging solution for busy founders and teams. Helps you launch, manage, & grow your startup's blog.
+                </p>
+
+                <!-- Learn more button link to page 
+                <a href="blog-in-a-box.html" class="fs-sm fw-bold text-decoration-none text-success">
+                  Peak under the hood<i class="fe fe-arrow-right ms-3"></i>
+                </a> -->
+                
+                <!-- Learn more button trigger popup modal 
+                <a class="fs-sm fw-bold text-decoration-none text-success" data-bs-toggle="modal" data-bs-target="#modalExample" type="button">
+                  Learn more <i class="fe fe-arrow-right ms-3"></i>
+                </a> -->
+                
+              </div>
+
+              <div class="card-body p-5 justify-content-center"> <!-- <div class="btn-group text-center" role="group" aria-label="Basic example"> -->
+
+                <!-- Aircrft Product Card Toolbar -->
+                <!-- <button class="btn btn-sm btn btn-info-soft text-center" data-bs-toggle="modal" data-bs-target="#modalExample">
+                  <div class="icon icon text-info me-2">
+                    {{> devices/cpu-1}}
+                  </div>
+                  <a href="/blog-in-a-box.html" class="fs-sm fw-bold text-decoration-none text-info data-bs-toggle="tooltip" data-bs-placement="top" title="Learn more" data-bs-original-title="Tooltip on top">
+                    Engine
+                  </a> 
+                  <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalExample">
+                
+                  </a>
+                </button> -->
+
+                <a href="blog-in-a-box.html">
+                <button href="blog-in-a-box.html" class="btn btn-sm btn btn-primary-soft text-center"><div class="icon icon text-primary me-2">
+                    {{> design/bezier-curve}}
+                  </div>
+                  <a href="blog-in-a-box.html" class="fs-sm fw-bold text-decoration-none text-primary">
+                    Learn
+                  </a>
+                </button> 
+                
+                <!-- MEET THE CURATOR 
+                <div class="icon text-body">
+                  <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalExample">
+                    <div class="icon icon-lg text-primary me-2">
+                      {{> design/bezier-curve}}
+                    </div>MEET THE CAPTAIN & CREW
+                  </a>
+                </div> -->
+                
+                <!-- Heading 
+                <button class="btn btn-sm btn btn-success-soft" data-bs-toggle="modal" data-bs-target="#modalExample">
+                  <div class="avatar avatar-online avatar-lg">
+                    <img src="../assets/img/products/blog/chai-chai-forest-avatar-new.png" alt="..." class="avatar-img rounded-circle">
+                  </div>
+                  Curated by Chai Forest
+                </button> -->
+                
+                <!-- Play Blog-in-the-Box Video trigger  -->
+                <button data-bigpicture='{"ytSrc": "4-cbc0K578o"}' href="#" class="btn btn-sm btn btn-success-soft">
+                  <div class="icon icon text-success me-2">
+                    {{> media/movie-lane-2}}
+                  </div>
+                  <a class="fs-sm fw-bold text-decoration-none text-success">
+                    Play
+                  </a> 
+                </button>
+
+                <!-- MEET THE CURATOR -->
+                <button class="btn btn-sm btn btn-warning-soft" data-bs-toggle="modal" data-bs-target="#modalBloginabox">
+                  <div class="icon icon text-warning me-2">
+                    {{> tools/pantone}}
+                  </div>
+                  <a href="#" class="fs-sm fw-bold text-decoration-none text-warning">
+                    Stack
+                  </a> 
+                  <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalBloginabox">
+                
+                  </a>
+                </button>
+
+              </div>
+
+              <div class="card-body p-5">
+                
+                <!-- List 1 -->
+                <div class="d-flex">
+    
+                <!-- Badge -->
+                <div class="badge badge-lg badge badge-rounded-circle bg-success-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+                </div>
+    
+                <!-- Text -->
+                <p class="text-gray-300">
+                  The #1 end-to-end blogging solution for busy founders and teams. 
+                </p>
+    
+                </div>
+                
+                <!-- List 2 -->
+                <div class="d-flex">
+    
+                <!-- Badge -->
+                <div class="badge badge-lg badge badge-rounded-circle bg-success-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+                </div>
+    
+                <!-- Text -->
+                <p class="text-gray-300">
+                  No-code! Zero-setup! Production-ready. Startup-grade.
+                </p>
+    
+                </div>
+                
+                <!-- List 3 -->
+                <div class="d-flex">
+    
+                <!-- Badge -->
+                <div class="badge badge-lg badge badge-rounded-circle bg-success-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+                </div>
+    
+                <!-- Text -->
+                <p class="text-gray-300">
+                  Start delivering high value content to your users. 
+                </p>
+    
+                </div>
+
+                <div>
+                <!-- Heading 
+                <button class="btn btn-sm btn btn-info-soft" data-bs-toggle="modal" data-bs-target="#modalBloginabox">
+                  <div class="avatar avatar-online avatar-lg">
+                    <img src="../assets/img/products/blog/chai-chai-forest-avatar-new.png" alt="..." class="avatar-img rounded-circle">
+                  </div>
+                  Curated by Chai Forest
+                </button> 
+                </div> -->
+
+                <!--  <div>
+                Learn more button link to page 
+                <a href="blog-in-a-box.html" class="fs-sm fw-bold text-decoration-none text-success">
+                  Peak under the hood<i class="fe fe-arrow-right ms-3"></i>
+                </a> 
+                </div> -->
+
+                <!-- Divider -->
+                <hr class="bg-dark my-6">
+
+              <div>
+
+              <!-- Blog-in-a-Box | + Add to Stack / Buy Now <i class="fe fe-arrow-right ms-3"></i> -->
+ 
+              <script src="https://gumroad.com/js/gumroad.js"></script>
+              <a href="https://gum.co/zwIVA?wanted=true" target="_blank" class="btn w-100 btn-success-soft">
+                Add to Stack | Buy Now <i class="fe fe-arrow-right ms-3"></i>
+              </a>
+
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+    </section> 
+    
+    <!-- Aircrft Coming sonn product cards 6-17-21 Chai Forest FEATURES bg-gradient-dark-black py-8 py-md-11 | class="py-10 py-md-14 bg-black" style="background-image: url(assets/img/patterns/pattern-1.svg);"-->
+    <section class="py-10 py-md-14 bg-black" style="background-image: url(assets/img/patterns/pattern-1.svg);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-7 text-center">
+                
+            <!-- Heading STARTUP MARKETPLACE -->
+            <span class="badge rounded-pill bg-success-soft h6 fw-bold text-uppercase">STARTUP MARKETPLACE</span>
+            
+            <div>
+            <!-- Image | aircrft-mini-logo-89x89.png | aircrft-homepage-logo-70x300.png position-relative img-fluid shadow-lg -->
+            <img src="assets/img/aircrft-homepage-logo-70x300.png" alt="Aircrft" />
+            </div>
+
+            <!-- Heading -->
+            <h1 class="display-3 fw-bold text-white">
+            Startup Marketplace
+            </h1> 
+
+            <!-- Heading -->
+            <h3 class="text-white text-center">
+            Thoughtfully curated tools & solutions
+            </h3>
+
+            <!-- Heading -->
+            <h6 class="text-uppercase text-center text-info mb-6" data-aos="fade-up" data-aos-delay="75">- Day one to escape velocity -
+            </h6> 
+
+            <!-- Divider -->
+            <hr class="bg-dark my-6">
+
+
+            <!-- Heading 
+            <h5 class="display-3 text-center fw-bold text-white">
+            Coming soon to Aircrft...
+            </h5> -->
+            
+        </div>
+    </div> <!-- / .row -->
+
+        <!-- Heading STARTUP SUPPLY CO. | SOLUTION MARKETPLACE 
+        <div class="text-center mb-5">
+          <span class="badge rounded-pill bg-success-soft mb-3">
+            <span class="h6 fw-bold text-uppercase">THE STARTUP MARKETPLACE</span>
+          </span>
+        </div> -->
+      
+        <!-- Heading 
+        <h6 class="text-uppercase text-center text-info mb-6" data-aos="fade-up" data-aos-delay="75">- Day one to
+          escape velocity -
+        </h6> -->
+
+        <!-- Heading 
+        <h6 class="text-uppercase text-center text-info mb-6" data-aos="fade-up" data-aos-delay="75">- PUTS ROCKET FUEL INTO YOUR STARTUP -
+        </h6> -->
+
+        <!-- Heading STARTUP MARKETPLACE -->
+        <span class="badge rounded-pill bg-secondary-soft h6 fw-bold text-center text-uppercase">COMING SOON</span>
+
+        <h1 class="display-3 fw-bold text-white" id="welcomeHeadingSource">
+          Coming soon to Aircrft... <br>
+          <span class="text-warning" data-typed="{&quot;strings&quot;: [&quot;Startup Stack&quot;, &quot;Fullstack Jamstack&quot;, &quot;Startup Website&quot;, &quot;Newsletter-in-a-Box&quot;]}">Copywrite</span><span class="typed-cursor" aria-hidden="true"></span>
+        </h1>
+
+        <div class="row mt-n7 py-10 py-md-14">
+          <div class="col-12 col-sm-6 col-lg-4 mt-7">
+
+            <!-- Card 2 card-shadow-dark-lg card lift lift-lg bg-dark card-border card-border border-success bg-pattern-2 rounded-3 -->
+            <div class="card h-100 bg-dark card lift lift-lg bg-dark border border-danger bg-pattern-2 rounded-3">
+              <div class="card-body p-5 pb-0 my-auto">
+
+                <!-- Image -->
+                <img class="img-fluid" src="assets/img/illustrations/illustration-6.png" alt="Aircrft Homepage Website and Landing Page Builder" style="max-width: 150px;">
+
+              </div>
+              <div class="card-body p-5">
+
+                <!-- Heading -->
+                <h1 class="fw-bold text-white">
+                  Startup Stack 
+                </h1>
+
+                <!-- Text -->
+                <p class="text-muted mb-0">
+                  Complete startup launch kit all wired up and ready to scale.
+                </p>
+
+                <br>
+
+                <a class="text-danger" href="#" target="_blank">
+                  Vote up this stack <i class="fe fe-heart pe-1"></i>
+                </a>
+
+                <br>
+
+                <a class="text-success" href="#" target="_blank">
+                  Request early access <i class="fe fe-arrow-right pe-1"></i>
+                </a>
+
+                <br>
+
+                <a class="text-danger" href="#" target="_blank">
+                  Contribute to this stack <i class="fe fe-heart pe-1"></i>
+                </a>
+
+
+                <!-- <a class="text-decoration-none" href="#" target="_blank">
+                  Become a Aircrft Stack Curator <i class="fe fe-heart pe-1"></i>
+                </a> -->
+
+                <!-- Divider 
+                <hr class="bg-dark my-6">
+              
+                <!-- Vote this stack / Sign up early access 
+                <a href="#" target="_blank" class="btn w-100 btn-success-soft">
+                  Request early access <i class="fe fe-arrow-right ms-3"></i>
+                </a>
+
+                <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+    
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-7">
+
+            <!-- Card 3 -->
+            <div class="card h-100 bg-dark card lift lift-lg bg-dark border border-info bg-pattern-2 rounded-3">
+              <div class="card-body p-5 pb-0 my-auto">
+
+                <!-- Letter -->
+                <div class="lh-1 fw-bolder text-info" style="font-size: 100px;">Aa</div>
+
+              </div>
+              <div class="card-body p-5">
+
+                <!-- Heading -->
+                <h1 class="fw-bold text-white">
+                  Fullstack Jamstack
+                </h1>
+
+                <!-- Text -->
+                <p class="text-muted mb-0">
+                  Full stack API-first cloud application. The full power of Jamstack in a production-ready app built for startups.
+                </p>
+
+                <a class="text-danger" href="#" target="_blank">
+                  Vote up this stack <i class="fe fe-heart pe-1"></i>
+                </a>
+
+                <br>
+
+                <a class="text-success" href="#" target="_blank">
+                  Request early access <i class="fe fe-arrow-right pe-1"></i>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-7">
+
+            <!-- Card 4 -->
+            <div class="card h-100 bg-dark card lift lift-lg bg-dark border border-primary bg-pattern-2 rounded-3">
+              <div class="card-body p-5 pb-0 my-auto">
+
+                <!-- Palette -->
+                <div class="d-inline-flex flex-row-reverse">
+                  <div class="p-6 rounded-circle bg-primary ms-n3"></div>
+                  <div class="p-6 rounded-circle bg-gray-800 ms-n3"></div>
+                  <div class="p-6 rounded-circle bg-gradient-multicolor"></div>
+                </div>
+
+              </div>
+              <div class="card-body p-5">
+
+                <!-- Heading -->
+                <h1 class="fw-bold text-white">
+                  Site is Live!
+                </h1>
+
+                <!-- Text -->
+                <p class="text-muted mb-0">
+                  Custom website stack mindfully crafted to shine the spotlight on your startup. Gives you complete control over how you want to present your content.
+                </p>
+
+                <a class="text-danger" href="#" target="_blank">
+                  Vote up this stack <i class="fe fe-heart pe-1"></i>
+                </a>
+
+                <br>
+
+                <a class="text-success" href="#" target="_blank">
+                  Request early access <i class="fe fe-arrow-right pe-1"></i>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-7">
+
+            <!-- Card 5 card | h-100 bg-dark rounded-3-->
+            <div class="card h-100 bg-dark card lift lift-lg bg-dark border border-info bg-pattern-2 rounded-3">
+              <div class="card-body p-5 pb-0 my-auto">
+
+                <!-- Icon illustration-9.png -->
+                <div class="icon icon-xl">
+                  {{> communication/mail-opened-info}}
+                </div>
+
+              </div>
+              <div class="card-body p-5">
+
+                <!-- Heading -->
+                <h1 class="fw-bold text-white">
+                  Newsletter-in-a-Box
+                </h1>
+
+                <!-- Text -->
+                <p class="text-muted mb-0">
+                  Keeping your community in the loop is a breeze
+                </p>
+
+                <a class="text-danger" href="#" target="_blank">
+                  Vote up this stack <i class="fe fe-heart pe-1"></i>
+                </a>
+
+                <br>
+
+                <a class="text-success" href="#" target="_blank">
+                  Request early access <i class="fe fe-arrow-right pe-1"></i>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-7">
+
+            <!-- Card 6 -->
+            <div class="card h-100 bg-dark card lift lift-lg bg-dark border border-warning bg-pattern-2 rounded-3">
+              <div class="card-body p-5 pb-0 my-auto">
+
+                <!-- Images -->
+                <div class="row gx-0" style="max-width: 150px;">
+                  <div class="col-4">
+
+                    <!-- Image -->
+                    <img class="w-150 rounded-1" src="assets/img/portfolio/portfolio-3.jpg" alt="...">
+
+                  </div>
+                  <div class="col-4">
+
+                    <!-- Image -->
+                    <img class="w-150 mt-3 rounded-1" src="assets/img/portfolio/portfolio-2.jpg" alt="...">
+
+                  </div>
+                  <div class="col-4">
+
+                    <!-- Image -->
+                    <img class="w-150 mt-5 rounded-1" src="assets/img/portfolio/portfolio-1.jpg" alt="...">
+
+                  </div>
+                </div>
+
+              </div>
+              <div class="card-body p-5">
+
+                <!-- Heading -->
+                <h1 class="fw-bold text-white">
+                  Shop-in-a-Box
+                </h1>
+
+                <!-- Text -->
+                <p class="text-muted mb-0">
+                  E-commerce bundle built to drive sales across all channels
+                </p>
+
+                <a class="text-danger" href="#" target="_blank">
+                  Vote up this stack <i class="fe fe-heart pe-1"></i>
+                </a>
+
+                <br>
+
+                <a class="text-success" href="#" target="_blank">
+                  Request early access <i class="fe fe-arrow-right pe-1"></i>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-7">
+
+            <!-- Card 7 -->
+            <div class="card h-100 bg-dark card lift lift-lg bg-dark border border-success bg-pattern-2 rounded-3">
+              <div class="card-body p-5 pb-0 my-auto">
+
+                <!-- Images -->
+                <div class="row gx-0" style="max-width: 150px;">
+                  <div class="col-4">
+
+                    <!-- Image -->
+                    <img class="w-150" src="assets/img/illustrations/illustration-9.png" alt="...">
+
+                  </div>
+                </div>
+
+                <!-- Icon 
+                <div class="icon d-inline-flex p-3 rounded-circle bg-info text-white">
+                  {{> design/bezier-curve}}
+                </div> -->
+
+              </div>
+              <div class="card-body p-5">
+
+                <!-- Heading -->
+                <h1 class="fw-bold text-white">
+                  AI-as-a-Service
+                </h1>
+
+                <!-- Text -->
+                <p class="text-muted mb-0">
+                  Infinitely scalable SaaS startup stack
+                </p>
+
+                <a class="text-danger" href="#" target="_blank">
+                  Vote up this stack <i class="fe fe-heart pe-1"></i>
+                </a>
+
+                <br>
+
+                <a class="text-success" href="#" target="_blank">
+                  Request early access <i class="fe fe-arrow-right pe-1"></i>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+
+        <!-- Heading 
+        <h6 class="text-uppercase text-center text-info mb-6" data-aos="fade-up" data-aos-delay="75">- Day one to escape
+          velocity -
+        </h6> -->
+
+        <!-- Text apps, stack, starter kits and SaaS 
+        <p class="lead text-warning mb-6 mx-auto" data-aos="fade-up" data-aos-delay="100" style="max-width: 500px;">
+        Human curated positive-impact tech solutions to make your day to day a little bit more wonderful. 
+        </p> -->
+
+        <div class="col-12 col-lg-7 text-center">
+
+            <!-- Heading 
+            <h6 class="text-uppercase text-center text-info mb-6" data-aos="fade-up" data-aos-delay="75">- Day one to escape
+              velocity -
+            </h6> -->
+
+            <!-- Divider 
+            <hr class="bg-dark my-6">
+            
+            <!-- Heading -->
+        <h6 class="text-uppercase text-center text-info mb-6 text-center" data-aos="fade-up" data-aos-delay="75">- OUR MISSION -
+        </h6>
+
+        <!-- Divider -->
+        <hr class="bg-dark my-6"> 
+        
+        <!-- Heading 
+        <h2 class="fw-bold text-white text-center">
+          To help humans soar. (To to learn more modal) To empower people with thoughtfully curated tools, positive impact technologies and real simple solutions to build sustainable success beyond success businesses around excelling in their core zone of genius. To build a thriving ecosystem that support entrepreneurs from day one to escape velocity. To be a platform and  community support system for building sustainable businesses that can positively impact 1 billion+ peoples lives on planet earth and beyond.✨
+        </h2> -->
+            
+            <!-- Heading 
+            <h4 class="display-3 text-white">
+              To uplift. To empower. To help makes people's daily life more joyful, prosperous, abundant, and simply wonderful. 
+            </h4> -->
+
+            <!-- Heading -->
+            <h4 class="display-3 text-white">
+              To harness and leveage the magic of the internet & technology to help make people's daily life more joyful, prosperous, abundant, and simply wonderful. 
+            </h4>
+
+
+            <!-- Heading 
+            <h4 class="display-3 text-white">
+              Helps humans soar. Uplifts & empowers the global startup ecosystem
+            </h4> -->
+
+            <!-- Text apps, stack, starter kits and SaaS -->
+            <p class="lead text-warning mb-6 mx-auto text-center" data-aos="fade-up" data-aos-delay="100" style="max-width: 500px;">
+              Thoughtfully curated, mindfully crafted positive impact technology tools & solutions to empower, uplift, and make your daily life simply wonderful.
+              </p> 
+
+            <!-- Text 
+            <p class="text-muted mb-0 text-center">
+              Helps humans soar.  Aircrft.com is an online marketplace company that offers thoughtfully curated technology solutions for startups.
+            </p> -->
+
+            <!-- Heading 
+            <h1 class="display-3 fw-bold text-white">
+              uplifts & empowers the global startup ecosystem
+            </h2> -->
+            
+            <!-- Heading 
+            <h6 class="text-uppercase text-center text-info mb-6" data-aos="fade-up" data-aos-delay="75">- Day one to escape velocity -
+            </h6> -->
+            
+            <!-- Heading 
+            <h6 class="text-uppercase text-center text-info mb-6" data-aos="fade-up" data-aos-delay="75">- Aircrft.com is an online marketplace company that offers thoughtfully curated technology solutions for startups.
+            </h6> -->
+            
+            <!-- Heading STARTUP SUPPLY CO. | SOLUTION MARKETPLACE -->
+            <div class="text-center mb-5">
+              <span class="badge rounded-pill bg-success-soft mb-3">
+                <span class="h6 fw-bold text-uppercase">STARTUP MARKETPLACE</span>
+              </span>
+            </div>
+
+            <!-- Image | aircrft-mini-logo-89x89.png | aircrft-homepage-logo-70x300.png -->
+            <img class="position-relative img-fluid shadow-lg" src="assets/img/aircrft-homepage-logo-70x300.png" alt="Aircrft" /> 
+
+            <!-- Heading STARTUP SUPPLY CO. | SOLUTION MARKETPLACE 
+            <div class="text-center mb-5">
+              <span class="badge rounded-pill bg-success-soft mb-3">
+                <span class="h6 fw-bold text-uppercase">STARTUP MARKETPLACE</span>
+              </span>
+            </div> -->
+
+            <!-- Heading 
+            <h1 class="display-3 fw-bold text-white">
+              uplifts & empowers the global startup ecosystem
+            </h2>
+
+            <!-- Heading 
+            <h6 class="text-uppercase text-center text-info mb-6" data-aos="fade-up" data-aos-delay="75">- Day one to escape velocity -
+            </h6> -->
+            
+            <!-- Heading -->
+            <h6 class="text-uppercase text-center text-info mb-6" data-aos="fade-up" data-aos-delay="75">Thoughtfully curated technology tools and real simple solutions for startups 
+            </h6> 
+
+            <!-- Aircrft Logo  
+            <div class="text-center mb-5">
+              <img class="position-relative img-fluid rounded-start shadow-lg" src="assets/img/aircrft-logo-cover-70x300-update.png"
+                alt="Aircrft" /> -->
+
+            <!-- Heading STARTUP SUPPLY CO. | SOLUTION MARKETPLACE 
+            <div class="text-center mb-5">
+              <span class="badge rounded-pill bg-success-soft mb-3">
+                <span class="h6 fw-bold text-uppercase">SOLUTION MARKETPLACE</span>
+              </span>
+            </div> -->
+
+            <!-- Heading STARTUP SUPPLY CO. | SOLUTION MARKETPLACE 
+            <div class="text-center mb-5">
+              <span class="badge rounded-pill bg-success-soft mb-3">
+                <span class="h6 fw-bold text-uppercase">SOLUTION MARKETPLACE</span>
+              </span>
+            </div> -->
+            
+            <!-- Text 
+            <p class="lead text-muted mb-9">
+              Purpose built to take you from day one to escape velocity.
+            </p> -->
+
+            
+
+          </div>
+
+      </div>
+    </section>
+    
+    
+    <!-- JAVASCRIPT -->
+    {{> partials/scripts}}
+  </body>
+</html>
