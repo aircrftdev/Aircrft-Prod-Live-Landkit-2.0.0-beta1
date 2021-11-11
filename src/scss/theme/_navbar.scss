@@ -65,7 +65,7 @@
 
 .navbar-btn {
 
-  @include media-breakpoint-down(xxl) {
+  @include media-breakpoint-down(lg) {
     width: 100%;
     padding: $btn-padding-y $btn-padding-x;
     border-top-left-radius: 0;
@@ -104,7 +104,7 @@
 
 // Collapse
 
-@include media-breakpoint-down(xxl) {
+@include media-breakpoint-down(lg) {
 
   .navbar-collapse {
     position: fixed;
@@ -154,7 +154,7 @@
   right: $spacer;
   z-index: 1;
 
-  @include media-breakpoint-up(xxl) {
+  @include media-breakpoint-up(lg) {
     display: none;
   }
 }
@@ -164,7 +164,7 @@
 
 .navbar-collapse .navbar-nav .nav-item {
 
-  @include media-breakpoint-down(xxl) {
+  @include media-breakpoint-down(lg) {
     padding: $navbar-nav-item-spacing;
 
     + .nav-item {
@@ -175,7 +175,7 @@
 
 .navbar-collapse .navbar-nav .nav-link {
 
-  @include media-breakpoint-down(xxl) {
+  @include media-breakpoint-down(lg) {
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -187,14 +187,14 @@
 .navbar-nav .dropdown-menu {
   box-shadow: none;
 
-  @include media-breakpoint-up(xxl) {
+  @include media-breakpoint-up(lg) {
     box-shadow: $box-shadow-dark-lg;
   }
 }
 
 .navbar-collapse .navbar-nav .dropdown-menu {
 
-  @include media-breakpoint-down(xxl) {
+  @include media-breakpoint-down(lg) {
     min-width: 0;
     padding: 0;
   }
@@ -202,14 +202,14 @@
 
 .navbar-collapse .navbar-nav .dropdown > .dropdown-menu {
 
-  @include media-breakpoint-down(xxl) {
+  @include media-breakpoint-down(lg) {
     display: block !important;
   }
 }
 
 .navbar-collapse .navbar-nav .dropend > .dropdown-menu {
 
-  @include media-breakpoint-down(xxl) {
+  @include media-breakpoint-down(lg) {
     padding-top: $spacer;
     padding-bottom: $spacer;
     padding-left: $spacer / 2;
@@ -222,7 +222,7 @@
 .navbar-collapse .navbar-nav .dropdown-item,
 .navbar-collapse .navbar-nav .dropdown-header {
 
-  @include media-breakpoint-down(xxl) {
+  @include media-breakpoint-down(lg) {
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
@@ -242,7 +242,7 @@
 
 .navbar-collapse .navbar-nav .dropdown > .dropdown-toggle {
 
-  @include media-breakpoint-down(xxl) {
+  @include media-breakpoint-down(lg) {
     margin-bottom: $navbar-dropdown-toggle-margin-bottom;
     pointer-events: none;
   }
@@ -285,7 +285,7 @@
   border-top-left-radius: $border-radius;
   border-bottom-left-radius: $border-radius;
 
-  @include media-breakpoint-up(xxl) {
+  @include media-breakpoint-up(lg) {
     display: flex;
   }
 
@@ -312,7 +312,7 @@
 .navbar-nav .dropdown-menu-lg .dropdown-img-start,
 .navbar-nav .dropdown-menu-xl .dropdown-img-start {
 
-  @include media-breakpoint-up(xxl) {
+  @include media-breakpoint-up(lg) {
     padding: $dropdown-padding-y-lg $dropdown-padding-x-lg;
   }
 }
@@ -322,7 +322,7 @@
 
 .navbar-nav .dropdown-body {
 
-  @include media-breakpoint-up(xxl) {
+  @include media-breakpoint-up(lg) {
     padding: $dropdown-padding-y $dropdown-padding-x;
   }
 }
@@ -330,7 +330,7 @@
 .navbar-nav .dropdown-menu-lg .dropdown-body,
 .navbar-nav .dropdown-menu-xl .dropdown-body {
 
-  @include media-breakpoint-up(xxl) {
+  @include media-breakpoint-up(lg) {
     padding: $dropdown-padding-y-lg $dropdown-padding-x-lg;
   }
 }
@@ -352,7 +352,7 @@
 
 // Toggle dropdown on hover
 
-@include media-breakpoint-up(xxl) {
+@include media-breakpoint-up(lg) {
 
   .navbar-nav .dropdown-menu {
     display: none;
